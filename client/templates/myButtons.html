@@ -1,0 +1,19 @@
+<template name="myButtons">
+	{{> header}}
+   <div class="ui three doubling cards">
+	{{#each buttons}}
+    <div class="ui fluid card">
+      <div class="content">
+        <div class="header">New Button</div>
+      </div>
+      <div align="center" id="btn-wrap" class="description">
+        {{{myBtn}}}
+      </div>
+      <div id="delete-btn" class="ui bottom attached red button">
+      Delete
+    </div>
+    </div>
+  	{{/each}}
+</div>
+</template>
+

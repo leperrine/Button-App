@@ -1,0 +1,57 @@
+<template name="newButton">
+
+<div class="ui form">
+
+<!-- this field changes the button text -->
+  <div class="field">
+    <label>Button Text</label>
+    <input id="btnText" name="" type="text">
+  </div>
+
+  <!-- this field changes the button url -->
+  <div class="field">
+    <label>Button URL</label>
+    <input id="btnUrl" name="" type="text">
+  </div>
+
+<!-- these options change the button style -->
+  <div class="field">
+    <label id="btntype">Button Style</label>
+    <select id="btnStyle" name="style" class="ui dropdown">
+      <option value="">normal</option>
+      <option value="basic">basic</option>
+      <option value="inverted">inverted</option>
+    </select>
+  </div>
+
+<!-- these options change the button color -->
+  <div class="field">
+    <label>Button Color</label>
+    <select id="btnColor" name="color" class="ui dropdown">
+      <option value="grey">normal</option>
+      <option value="red">red</option>
+      <option value="blue">blue</option>
+    </select>
+  </div>
+
+<!-- these options change the button size -->
+  <div class="field">
+    <label>Button Size</label>
+    <select id="btnSize" name="size" class="ui dropdown">
+      <option value="">normal</option>
+      <option value="mini">mini</option>
+      <option value="tiny">tiny</option>
+      <option value="small">small</option>
+      <option value="medium">medium</option>
+      <option value="large">large</option>
+      <option value="big">big</option>
+      <option value="huge">huge</option>
+      <option value="massive">massive</option>
+    </select>
+  </div>
+
+<!-- save your new button to Buttons Mongo Collection -->
+  <button id="new-btn" class="ui button" type="submit">Save Button</button>
+
+</div>
+</template>

@@ -1,0 +1,58 @@
+/* CSS declarations go here */
+
+body {
+	background-color: #eee;
+}
+
+#main-layout {
+	margin: 10px;
+	display: block;
+	width: 100%;
+	padding: 25px;
+}
+
+#logo {
+	margin: 10px 5px 0 0;
+	padding-left: 10px;
+}
+
+#button-preview {
+	background-color:#fafafa;
+	padding: 15px;
+	width: 43%;
+	height: 420px;
+}
+
+#button-new {
+	background-color:#fff;
+	padding: 15px;
+	width: 56%;
+}
+
+.ui.menu {
+	background-color: #009688;
+	color: #ffebee;
+	height: 60px;
+	border-radius: 0px;
+}
+
+.ui.menu .item {
+	color: #ffebee;
+	font-size: 1.2em;
+}
+
+.ui.three.cards {
+    margin: 1.6rem;
+}
+
+#btn-grid {
+	width: 30%;
+	padding: 15px;
+	background-color:#fafafa;
+	margin: 15px;
+}
+
+#btn-wrap {
+	padding: 15px;
+	background-color:#fafafa;
+}
